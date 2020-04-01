@@ -47,13 +47,13 @@ function checkUserName(){
 // return true if it passses all validation and false otherwise
 function checkEmail(){
     var email = document.getElementById('emailtext').value;
-    var expr = /[a-zA-Z0-9.@_]*$/;
+    var expr = /^[a-zA-Z0-9.@_]*$/;
     if (!expr.test(email)) {
         alert("not valid email");
         return false;
     }
     else if(email == ""){
-        alert("UserName is Empty");
+        alert("email is Empty");
         return false;
     }
     else{
