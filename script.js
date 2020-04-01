@@ -82,11 +82,11 @@ function checkPassword(){
         return false;
     }
     else if (!numbers.test(pass) ) {
-        alert("should contain lowrcase");
+        alert("should contain lowercase");
         return false;
     }
     else if (!spec_char.test(pass) ) {
-        alert("should contain lowrcase");
+        alert("should contain special character");
         return false;
     }
     else {
