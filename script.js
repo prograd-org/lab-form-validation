@@ -26,10 +26,10 @@ function checkUserName(){
             return false;
         }
         else if (username.split(' ').length > 1) {
-            alert("`userName should not contain spaces");
+            alert("userName should not contain spaces");
             return false;
         }
-        else if (username == isValid) {
+        else if (!isValid) {
             alert("Contains Special Characters.");
             return false;
         }
