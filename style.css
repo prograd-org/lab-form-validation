@@ -9,6 +9,10 @@ align-content:center;
 align-items:center;
 }
 
+.redborder{
+    border: 2px solid red !important;
+}
+
 .container {
 display:flex;
 position:absolute;
