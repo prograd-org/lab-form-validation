@@ -359,6 +359,10 @@ letter-spacing:.01em;
 color:#EB5757;
 }
 
+.submit:hover {
+    background-color: orangered;
+}
+
 .footer{
     position:absolute;
     margin-left: 80px;
