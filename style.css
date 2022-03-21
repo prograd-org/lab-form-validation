@@ -34,7 +34,7 @@ flex-direction:row;
 justify-content:center;
 align-content:center;
 align-items:center;
-background:rgba(36,40,44,0.8);
+background:rgba(46,39,44,0.8);
 }
 
 .submain {
@@ -43,7 +43,7 @@ width:1480px;
 height:64px;
 left:0;
 top:0;
-background:rgba(36,40,44,0.8);
+background:rgba(46,39,44,0.8);
 }
 
 .logo {
